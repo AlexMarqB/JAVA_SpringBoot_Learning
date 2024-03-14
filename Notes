@@ -1,0 +1,28 @@
+
+O arquivo "pom.xml" é o arquivo de configurações do projeto, indicando dependencias, repositorios, etc
+
+para declarar que uma classe é um controller devemos adicionar a notation "@RestController"
+
+para tornar um novo método um endpont devemoms adicionar a notation "@GetMapping"
+
+Notations => https://www.upgrad.com/blog/spring-boot-annotations/
+
+-- IoC --
+A metodologia IoC diz que
+
+- devemos controlar as instâncias das classes externamentes ou seja fora da classe em que será ultilizada (factories)
+
+Spring IoC Container -> o springboot implementa injeção de dependências através de um container
+chamado Sprin IoC Container ou seja ele gerencia as dependencias automaticamente
+
+Class 1 (POJOs*) -> SpringContainer -Produces-> instancia automaticamente não precisamos codar instancia
+POJOs -> classe sem lógica apenas constructor, getter e setter
+
+-- Common Application Properties --
+Permite customizar, criar, remover configurações do spring
+
+pasta resources -> new File (application.properties)
+
+-- JDBC --
+Java database connectivity é o conjunto de classes e interfaces escritar em Java que fazem o envio de instruções
+SQL para banco de dados relacional
